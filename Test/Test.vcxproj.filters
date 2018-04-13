@@ -36,14 +36,23 @@
     <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="adddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="test.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="adddialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="test.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="adddialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

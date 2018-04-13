@@ -115,6 +115,7 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="adddialog.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
@@ -122,10 +123,14 @@
     <QtMoc Include="test.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="adddialog.ui" />
     <QtUic Include="test.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="test.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="adddialog.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
